@@ -869,7 +869,7 @@ body {
 }
 
 .mh-header {
-  padding: 0;
+  padding: 10px 0;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
@@ -989,6 +989,15 @@ body {
   line-height: 30px;
   padding-right: 30%;
   margin-bottom: 30px;
+}
+
+.lo_content_inner p.privacyInfo {
+  font-size: 12px;
+  margin-top: 15px;
+}
+
+.lo_content_inner p.privacyInfo a {
+  color: #4acd87;
 }
 
 .lo_content_inner .btn {
