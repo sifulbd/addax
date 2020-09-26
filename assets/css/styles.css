@@ -88,11 +88,11 @@ html {
 }
 
 body {
-  font-family: system-ui;
-  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
   font-style: none;
-  line-height: 24px;
-  font-weight: 500;
+  line-height: 29px;
+  font-weight: 400;
   overflow-x: hidden !important;
   text-align: left;
   position: relative;
@@ -101,7 +101,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: system-ui;
+  font-family: "Inter", sans-serif;
 }
 
 p {
@@ -656,6 +656,10 @@ ul li {
   background-color: #fafafa;
 }
 
+.halkaColor3 {
+  background-color: #fcfbf8;
+}
+
 .bg-black {
   background-color: #000;
 }
@@ -899,13 +903,13 @@ body {
 }
 
 .mh-header .navbar-nav li.active a {
-  color: #fff;
+  color: #4acd87;
 }
 
 .mh-header .navbar-nav li a {
   border-bottom: 1px solid transparent;
   font-weight: bold;
-  font-family: system-ui;
+  font-family: "Inter", sans-serif;
   font-size: 14px;
   color: #000;
   opacity: 0.9;
@@ -1028,7 +1032,7 @@ body {
 
 .ft-section .faq-inner p {
   padding-bottom: 20px;
-  padding-right: 30%;
+  padding-right: 22%;
 }
 
 .ev-countdown {
@@ -1233,7 +1237,7 @@ body {
 }
 
 .ev-about .nav-pills.ev-about-nav .nav-link.active {
-  color: #221645;
+  color: #000;
   opacity: 1;
 }
 

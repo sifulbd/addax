@@ -79,7 +79,7 @@ body {
             margin: 6px 15px;
             &.active {
                 a {
-                    color: $white;
+                    color: #4acd87;
                 }
             }
             a {
@@ -208,7 +208,7 @@ body {
         }
          p {
              padding-bottom: 20px;
-             padding-right: 30%;
+             padding-right: 22%;
          }
     }
 }
@@ -399,7 +399,7 @@ body {
             display: inline-block;
             .nav-link {
                 &.active {
-                    color: $form-text;
+                    color: #000;
                     opacity: 1;
                     &:before {
                         font-family: FontAwesome;
