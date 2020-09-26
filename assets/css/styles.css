@@ -639,13 +639,21 @@ ul li {
 }
 
 .section-separator {
-  padding-top: 70px;
-  padding-bottom: 70px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .home-section-separator {
   padding-top: 100px;
   padding-bottom: 200px;
+}
+
+.halkaColor {
+  background-color: #4acd870f;
+}
+
+.halkaColor2 {
+  background-color: #fafafa;
 }
 
 .bg-black {
@@ -883,6 +891,7 @@ body {
   left: 0;
   right: 0;
   top: 0;
+  background-color: #fff;
 }
 
 .mh-header .navbar-nav li {
@@ -1006,6 +1015,20 @@ body {
 
 .navbar-brand img {
   max-height: 34px;
+}
+
+.ft-section .faq-inner {
+  padding-top: 30px;
+}
+
+.ft-section .faq-inner h3 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.ft-section .faq-inner p {
+  padding-bottom: 20px;
+  padding-right: 30%;
 }
 
 .ev-countdown {
@@ -2516,7 +2539,7 @@ body {
 }
 
 .ev-footer {
-  background-image: linear-gradient(60deg, #6D40e3 0%, #9c7dff 100%);
+  background-image: linear-gradient(60deg, #30754c 0%, #2a774e 100%);
   color: #fff;
   position: relative;
 }
@@ -2527,12 +2550,16 @@ body {
   bottom: 30px;
 }
 
+.ev-footer img {
+  max-width: 130px;
+}
+
 .ev-footer .footer-inner {
   margin-bottom: 30px;
 }
 
 .ev-footer .footer-inner h4 {
-  font-size: 16px;
+  font-size: 18px;
   color: #fff;
   margin-top: 20px;
   letter-spacing: 0.5px;
@@ -2552,7 +2579,7 @@ body {
 
 .ev-footer .footer-inner ul li a {
   opacity: 0.9;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 26px;
   color: #fff;
   letter-spacing: 0;
