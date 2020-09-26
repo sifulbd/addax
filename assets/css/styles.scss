@@ -176,6 +176,14 @@ body {
         line-height: 30px;
         padding-right: 30%;
         margin-bottom: 30px;
+        &.privacyInfo{
+            font-size: 12px;
+            margin-top: 15px;
+
+            a {
+                color: #4acd87;
+            }
+        }
     }
     .btn {
         text-transform: uppercase;
@@ -185,6 +193,9 @@ body {
     img {
         max-height: 34px;
     }
+}
+.privacyInfo {
+
 }
 
 .ev-countdown {

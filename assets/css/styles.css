@@ -991,6 +991,15 @@ body {
   margin-bottom: 30px;
 }
 
+.lo_content_inner p.privacyInfo {
+  font-size: 12px;
+  margin-top: 15px;
+}
+
+.lo_content_inner p.privacyInfo a {
+  color: #4acd87;
+}
+
 .lo_content_inner .btn {
   text-transform: uppercase;
 }
