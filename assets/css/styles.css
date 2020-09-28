@@ -895,6 +895,8 @@ body {
   left: 0;
   right: 0;
   top: 0;
+  -webkit-box-shadow: 5px 0 20px 0 #19171726;
+  box-shadow: 5px 0 20px 0 #19171726;
   background-color: #fff;
 }
 
@@ -923,7 +925,7 @@ body {
 }
 
 .mh-header .navbar-nav li a:hover {
-  color: #fff;
+  color: #4acd87;
 }
 
 .mh-header-bg {
@@ -985,11 +987,11 @@ body {
 }
 
 .lo_content_inner .main_heading {
-  font-size: 54px;
+  font-size: 42px;
   color: #000;
   opacity: 0.9;
   letter-spacing: 0px;
-  line-height: 64px;
+  line-height: 56px;
   margin: 20px 0;
   margin-top: 10px;
 }
@@ -1001,7 +1003,7 @@ body {
   letter-spacing: 0;
   line-height: 30px;
   padding-right: 30%;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .lo_content_inner p.privacyInfo {
@@ -1017,8 +1019,13 @@ body {
   text-transform: uppercase;
 }
 
+.lo_content_inner img {
+  max-height: 30px;
+  margin-bottom: 20px;
+}
+
 .navbar-brand img {
-  max-height: 34px;
+  max-height: 50px;
 }
 
 .ft-section .faq-inner {
@@ -1091,14 +1098,92 @@ body {
   line-height: 27px;
 }
 
-.ev-countdown .each-countdown-text h4 {
-  font-size: 35px;
-  line-height: 40px;
-  color: #fff;
+.clients {
+  background-color: #607d8b0d;
 }
 
-.ev-countdown .each-countdown-text span {
-  color: #BBA6FF;
+.clients ul {
+  margin: 0 auto;
+}
+
+.clients ul li {
+  display: inline-block;
+}
+
+.clients ul li img {
+  padding: 0 15px;
+  max-height: 80px;
+}
+
+.clients2 ul {
+  margin: 0 auto;
+}
+
+.clients2 ul li {
+  display: inline-block;
+  width: 19%;
+  text-align: center;
+}
+
+.clients2 ul li img {
+  padding: 0 15px;
+  max-height: 80px;
+}
+
+.clients2 .section-title h2 {
+  margin-bottom: 30px;
+}
+
+.relative {
+  position: relative;
+}
+
+.img-bg {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.ft-ovly {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: #fff;
+  opacity: 0.8;
+  z-index: 0;
+}
+
+.faq-inner ul li {
+  display: block;
+  margin: 10px 0;
+}
+
+.faq-inner ul li .fa {
+  margin-right: 2px;
+  font-size: 14px;
+  line-height: 30px;
+  color: #000;
+  opacity: 0.7;
+}
+
+.featured-text {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.featured-text h3 {
+  z-index: 999;
+  font-size: 42px;
+  line-height: 57px;
+}
+
+.featured-text2 h3 {
+  z-index: 999;
+  font-size: 34px;
+  line-height: 40px;
+  padding: 0 30%;
 }
 
 .ev-events .owl-carousel .owl-stage-outer {
@@ -2574,7 +2659,7 @@ body {
 .ev-footer .footer-inner p {
   margin-top: 30px;
   margin-bottom: 20px;
-  padding-right: 30px;
+  padding: 0 20%;
 }
 
 .ev-footer .footer-inner ul li {
@@ -3220,5 +3305,17 @@ body {
   display: block;
   margin-bottom: 0;
   color: #fff;
+}
+
+.navbar-brand {
+  display: inline-block;
+  padding-top: .3125rem;
+  padding-bottom: .3125rem;
+  margin-right: 1rem;
+  font-size: 30px;
+  line-height: 50px;
+  white-space: nowrap;
+  /* font-family: math; */
+  font-weight: bold;
 }
 /*# sourceMappingURL=styles.css.map */
