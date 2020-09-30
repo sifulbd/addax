@@ -52,6 +52,11 @@
     .ev-loc-fix {
         display: none;
     }
+    .featured-text2 h3 {
+        font-size: 34px;
+        line-height: 46px;
+        padding: 0 10%;
+    }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -99,9 +104,7 @@
 @media only screen and (max-width: 991px) {
     .section-separator {
         padding: 40px 0;
-    }
-
-   
+    }   
     .lo-team-item {
         display: flex;
     } 
@@ -286,7 +289,7 @@
         outline: 0 !important;
       }
       .strict {
-        background-color: rgba(0, 0, 0, 0.9);
+        background-color: #fff;
         padding-bottom: 65px;
       }
       .navbar-toggler {
@@ -418,7 +421,7 @@
     }
     .mh-header {
         padding: 10px 0;
-        background-color: rgba($black, 0.4);
+        background-color: #fff;
     }
     .navbar-toggler {
         background-color: $white;
@@ -485,8 +488,7 @@
     }
     .mh-xs-mobile-nav .navbar-toggler {
         margin-top: 10px;
-    }
-    
+    }    
     .zb-tabs .nav-item a {
         width: 100%;
         outline: 0;
@@ -494,19 +496,16 @@
         font-size: 26px;
         line-height: 36px;
         padding: 15px 0;
-    }
-    
+    }    
     .nb-pack {
         display: block !important;
     }    
     .nb-pack-2 {
         display: none !important;
     }
-
     .lo-copyright-item {
         margin-bottom: 30px
     }
-
     .ev-home {
         .ev-home-padding {
             padding: 100px 0;
@@ -583,7 +582,6 @@
         text-align: center;
         margin-bottom: 30px;
     }
-
     .ev-home-4 {
         height: auto;
     }
@@ -594,6 +592,41 @@
     }
     .ev-home-4 .ev-home-padding {
         padding-bottom: 30px;
+    }
+    .lo_content_inner p {
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
+    .lo_content_inner p.privacyInfo {
+        font-size: 14px;
+        margin-top: 15px;
+    }
+    .ev-home {
+        text-align: center;
+    }
+    .ft-section {
+        text-align: center;
+        img {
+            margin-top: 40px;
+            padding: 30px;
+        }
+    }
+    .ft-section .faq-inner p {
+        padding-bottom: 20px;
+        padding-right: 0;
+    }
+    .faq-inner ul li {
+        display: block;
+        margin: 10px 0;
+        text-align: left;
+        padding-left: 20%;
+    }
+    .ev-footer .footer-inner p {
+        padding: 0 10%;
+    }
+    .clients2 ul li {
+        width: 32%;
+        text-align: center;
     }
 }
 @media only screen and (min-width: 992px) {
@@ -832,6 +865,39 @@
         margin-bottom: 30px;
     }
 
+    .lo_content_inner .main_heading {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .clients ul li img {
+        padding: 0 30px;
+    }
+    .featured-text2 h3 {
+        font-size: 28px;
+        line-height: 40px;
+        padding: 0 4%;
+    }
+    .faq-inner ul li {
+        padding-left: 5%;
+    }
+    .featured-text h3 {
+        z-index: 999;
+        font-size: 34px;
+        line-height: 50px;
+    }
+    .clients2 ul {
+        margin: 0 auto;
+        text-align: center;
+    }
+    .clients2 ul li {
+        width: 40%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .ev-footer .footer-inner p {
+        padding: 0 5%;
+    }
+
 }
 
 @media only screen and (max-width: 575px) {
@@ -986,6 +1052,10 @@
         border-left: 2px solid #6D40e3;
         border-bottom: 0;
     }
+    .navbar-toggler {
+        background-color: #fff;
+        margin-right: 20px;
+    }
     
 }
 
@@ -1002,8 +1072,8 @@
     }
 
     .lo_content_inner .main_heading {
-        font-size: 40px;
-        line-height: 45px;
+        // font-size: 40px;
+        // line-height: 45px;
     }
     .lo-button .btn {
         margin: 0 4px;
