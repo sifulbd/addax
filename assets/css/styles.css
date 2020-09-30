@@ -1104,10 +1104,12 @@ body {
 
 .clients ul {
   margin: 0 auto;
+  text-align: center;
 }
 
 .clients ul li {
   display: inline-block;
+  margin-bottom: 20px;
 }
 
 .clients ul li img {

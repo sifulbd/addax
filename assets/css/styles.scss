@@ -275,8 +275,10 @@ body {
     background-color: #607d8b0d;
       ul {
           margin: 0 auto;
+          text-align: center;
           li {
               display: inline-block;
+              margin-bottom: 20px;
               img {
                   padding: 0 15px;
                   max-height: 80px;
