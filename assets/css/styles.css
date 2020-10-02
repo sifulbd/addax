@@ -989,7 +989,6 @@ body {
 .lo_content_inner .main_heading {
   font-size: 42px;
   color: #000;
-  opacity: 0.9;
   letter-spacing: 0px;
   line-height: 56px;
   margin: 20px 0;
@@ -1021,11 +1020,21 @@ body {
 
 .lo_content_inner img {
   max-height: 30px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .navbar-brand img {
   max-height: 50px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 900;
+  opacity: 0.8;
+}
+
+.center-img {
+  margin: 0 auto;
+  text-align: center;
 }
 
 .ft-section .faq-inner {
@@ -1035,11 +1044,17 @@ body {
 .ft-section .faq-inner h3 {
   margin-top: 30px;
   margin-bottom: 30px;
+  font-size: 34px;
+  font-weight: 900;
 }
 
 .ft-section .faq-inner p {
   padding-bottom: 20px;
   padding-right: 22%;
+}
+
+.ft-section img {
+  max-height: 500px;
 }
 
 .ev-countdown {
@@ -1109,7 +1124,8 @@ body {
 
 .clients ul li {
   display: inline-block;
-  margin-bottom: 20px;
+  width: 19%;
+  text-align: center;
 }
 
 .clients ul li img {
@@ -1163,9 +1179,9 @@ body {
 }
 
 .faq-inner ul li .fa {
-  margin-right: 2px;
-  font-size: 14px;
-  line-height: 30px;
+  margin-right: 4px;
+  font-size: 12px;
+  line-height: 26px;
   color: #000;
   opacity: 0.7;
 }
@@ -1183,9 +1199,10 @@ body {
 
 .featured-text2 h3 {
   z-index: 999;
-  font-size: 34px;
-  line-height: 40px;
-  padding: 0 30%;
+  font-size: 42px;
+  color: #42c677;
+  line-height: 48px;
+  padding: 0 8%;
 }
 
 .ev-events .owl-carousel .owl-stage-outer {
@@ -2630,7 +2647,7 @@ body {
 }
 
 .ev-footer {
-  background-image: linear-gradient(60deg, #30754c 0%, #2a774e 100%);
+  background-color: #179a5c;
   color: #fff;
   position: relative;
 }
@@ -2662,6 +2679,7 @@ body {
   margin-top: 30px;
   margin-bottom: 20px;
   padding: 0 20%;
+  opacity: 1;
 }
 
 .ev-footer .footer-inner ul li {
@@ -3309,6 +3327,10 @@ body {
   color: #fff;
 }
 
+.hero-img img {
+  max-height: 550px;
+}
+
 .navbar-brand {
   display: inline-block;
   padding-top: .3125rem;
@@ -3319,5 +3341,9 @@ body {
   white-space: nowrap;
   /* font-family: math; */
   font-weight: bold;
+}
+
+.navbar-brand:hover {
+  color: #000;
 }
 /*# sourceMappingURL=styles.css.map */

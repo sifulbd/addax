@@ -165,7 +165,6 @@ body {
     .main_heading {
         font-size: 42px;
         color: #000;
-        opacity: 0.9;
         letter-spacing: 0px;
         line-height: 56px;
         margin: 20px 0;
@@ -193,7 +192,7 @@ body {
     }
     img {
         max-height: 30px;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
 }
 .navbar-brand {
@@ -204,18 +203,30 @@ body {
 .privacyInfo {
 
 }
-
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 900;
+    opacity: 0.8;
+}
+.center-img {
+    margin: 0 auto;
+    text-align: center;
+}
 .ft-section {
     .faq-inner {
         padding-top: 30px;
         h3 {
             margin-top: 30px;
             margin-bottom: 30px;
+            font-size: 34px;
+            font-weight: 900;
         }
          p {
              padding-bottom: 20px;
              padding-right: 22%;
          }
+    }
+    img {
+        max-height: 500px;
     }
 }
 
@@ -277,13 +288,14 @@ body {
           margin: 0 auto;
           text-align: center;
           li {
-              display: inline-block;
-              margin-bottom: 20px;
-              img {
-                  padding: 0 15px;
-                  max-height: 80px;
-              }
-          }
+            display: inline-block;
+            width: 19%;
+            text-align: center;
+            img {
+                padding: 0 15px;
+                max-height: 80px;
+            }
+      }
       }
   }
   .clients2 {
@@ -329,9 +341,9 @@ body {
             display: block;
             margin: 10px 0;
             .fa {
-                margin-right: 2px;
-                font-size: 14px;
-                line-height: 30px;
+                margin-right: 4px;
+                font-size: 12px;
+                line-height: 26px;
                 color: #000;
                 opacity: 0.7;
             }
@@ -350,9 +362,10 @@ body {
 }
 .featured-text2 h3 {
     z-index: 999;
-    font-size: 34px;
-    line-height: 40px;
-    padding: 0 30%;
+    font-size: 42px;
+    color: #42c677;
+    line-height: 48px;
+    padding: 0 8%;
 }
 
 
@@ -1666,7 +1679,7 @@ body {
 }
 
 .ev-footer {
-    background-image: linear-gradient(60deg, #30754c 0%, #2a774e 100%);
+    background-color: #179a5c;
     color: $white;
     position: relative;
     .ev-ft-shape {
@@ -1692,6 +1705,7 @@ body {
             margin-top: 30px;
             margin-bottom: 20px;
             padding: 0 20%;
+            opacity: 1;
         }
         ul {
             li {
@@ -2271,6 +2285,11 @@ body {
         }
     }
 }
+.hero-img {
+    img {
+        max-height: 550px;
+    }
+}
 
 .navbar-brand {
     display: inline-block;
@@ -2282,4 +2301,7 @@ body {
     white-space: nowrap;
     /* font-family: math; */
     font-weight: bold;
+    &:hover {
+        color: #000;
+    }
 }
